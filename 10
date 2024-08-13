@@ -1,0 +1,13 @@
+documentclass{article} \usepackage{tikz}
+\begin{document}
+\begin{figure} \centering
+\begin{tikzpicture} \node {Root}
+child { node {A}
+child { node {A1}}
+child { node {A2}
+}}
+child { node {B}
+child { node {B2}} };
+\end{tikzpicture} \caption{Tree Diagram} \label{fig:tree_diagram}
+\end{figure} \end{document}
+   
