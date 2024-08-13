@@ -1,0 +1,16 @@
+\documentclass{article} \usepackage{natbib}
+\begin{document}
+\title{Sample Document with Citations} \author{}
+\date{}
+\maketitle
+\section{Introduction}
+Latex is a tool for typesetting professional-looking documents \citep{author1}. The
+document is a plain text file interspersed with LaTeX commands used to express the desired (typeset) results. \citep{author2}.
+\bibliographystyle{plainnat} \bibliography{references.bib}
+\end{document}
+// Separate file with the name “references.bib” save in the same folder
+@article{author1, title={Title of article 1}, author={Author 1}, journal={Journal Name}, year={2020},
+}
+@article{author2, title={Title of article 2}, author={Author 2}, journal={Journal Name}, year={2021},
+}
+   
